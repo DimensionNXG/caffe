@@ -1,5 +1,14 @@
 # Caffe
 
+```Instructions to build
+make all -j12
+make all test -j12
+make pycaffe
+
+export PYTHONPATH=PATHTOCAFFE_ROOT/python/:$PYTHONPATH
+```
+
+
 [![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
 
